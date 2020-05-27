@@ -10367,3 +10367,7 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.svg-inline--fa.fa-w-14 {
+  width: 1.875em !important;
+}
