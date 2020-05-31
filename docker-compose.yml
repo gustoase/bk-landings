@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  html:
+    container_name: html
+    build: .
+    networks:
+      nginx_net:
+
+networks:
+  nginx_net:
+    external: true
